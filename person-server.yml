@@ -1,7 +1,7 @@
 server:
   port: ${PORT:8081}
   
-message: Configuracion de local en el servidor levantado
+message: Configuracion de person en el servidor levantado
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
