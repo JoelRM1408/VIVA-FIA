@@ -1,6 +1,12 @@
 server:
   port: ${PORT:8084}
-  
+
+eureka:
+  client:
+    register-with-eureka: true
+    #fetch-registry:false
+    service-url:
+      defaultzone: http://localhost:8761/eureka/  
 message: Configuracion de session en el servidor levantado
 spring:
   datasource:
